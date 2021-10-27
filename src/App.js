@@ -83,7 +83,7 @@ function App() {
             featherCount={featherCount}
             featherColors={featherColors}
         />
-        <Message size={size} />
+        <Message size={size} featherCount={featherCount}/>
     </>
   );
 }
